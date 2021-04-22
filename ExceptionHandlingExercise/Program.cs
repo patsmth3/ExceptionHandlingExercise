@@ -26,9 +26,7 @@ namespace ExceptionHandlingExercise
                 try
                 {
                     str = item.ToString();
-                    int.Parse(str);
-
-                    numbers.Add(number);
+                    numbers.Add(int.Parse(str));
                 }
                 catch (Exception e)
                 {
